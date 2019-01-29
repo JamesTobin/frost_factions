@@ -1,7 +1,7 @@
 local storage = minetest.get_mod_storage()
 
 if not minetest.deserialize(storage:get_string("spawn")) then
-	storage:set_string("spawn", minetest.serialize({x = 0, y = 0, z = 0}))
+	storage:set_string("spawn", minetest.serialize({x = 1099, y = 11, z = 1818}))
 end
 
 local tip = {}
